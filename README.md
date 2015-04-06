@@ -1,6 +1,10 @@
 # RPNCalculator
 This is a simple calculator use Reverse Polish Notation.
-###To use:  
+### To use:  
 1. Tap Enter after you input a number;  
-2. input operator;  
-###Preview
+2. input operator;
+3. Result shows up.  
+
+### Preview:
+
+
