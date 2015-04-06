@@ -21,6 +21,7 @@
 		ACFDC209189F1D1F0009D0E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFDC1EB189F1D1F0009D0E6 /* UIKit.framework */; };
 		ACFDC211189F1D1F0009D0E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACFDC20F189F1D1F0009D0E6 /* InfoPlist.strings */; };
 		ACFDC213189F1D1F0009D0E6 /* CaculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC212189F1D1F0009D0E6 /* CaculatorTests.m */; };
+		ACFDC221189F51280009D0E6 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC220189F51280009D0E6 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +35,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ACFDC1E4189F1D1F0009D0E6 /* Caculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFDC1E4189F1D1F0009D0E6 /* RPNCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPNCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFDC1E7189F1D1F0009D0E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACFDC1E9189F1D1F0009D0E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		ACFDC1EB189F1D1F0009D0E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		ACFDC1EF189F1D1F0009D0E6 /* Caculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caculator-Info.plist"; sourceTree = "<group>"; };
+		ACFDC1EF189F1D1F0009D0E6 /* RPNCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RPNCalculator-Info.plist"; sourceTree = "<group>"; };
 		ACFDC1F1189F1D1F0009D0E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACFDC1F3189F1D1F0009D0E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ACFDC1F5189F1D1F0009D0E6 /* Caculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Caculator-Prefix.pch"; sourceTree = "<group>"; };
+		ACFDC1F5189F1D1F0009D0E6 /* RPNCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPNCalculator-Prefix.pch"; sourceTree = "<group>"; };
 		ACFDC1F6189F1D1F0009D0E6 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		ACFDC1F7189F1D1F0009D0E6 /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		ACFDC1FA189F1D1F0009D0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACFDC1FC189F1D1F0009D0E6 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		ACFDC1FD189F1D1F0009D0E6 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		ACFDC1FF189F1D1F0009D0E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ACFDC205189F1D1F0009D0E6 /* CaculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFDC205189F1D1F0009D0E6 /* RPNCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPNCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFDC206189F1D1F0009D0E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		ACFDC20E189F1D1F0009D0E6 /* CaculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaculatorTests-Info.plist"; sourceTree = "<group>"; };
+		ACFDC20E189F1D1F0009D0E6 /* RPNCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RPNCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		ACFDC210189F1D1F0009D0E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACFDC212189F1D1F0009D0E6 /* CaculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorTests.m; sourceTree = "<group>"; };
+		ACFDC21F189F51280009D0E6 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		ACFDC220189F51280009D0E6 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +95,8 @@
 		ACFDC1E5189F1D1F0009D0E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACFDC1E4189F1D1F0009D0E6 /* Caculator.app */,
-				ACFDC205189F1D1F0009D0E6 /* CaculatorTests.xctest */,
+				ACFDC1E4189F1D1F0009D0E6 /* RPNCalculator.app */,
+				ACFDC205189F1D1F0009D0E6 /* RPNCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +121,8 @@
 				ACFDC1FC189F1D1F0009D0E6 /* CalculatorViewController.h */,
 				ACFDC1FD189F1D1F0009D0E6 /* CalculatorViewController.m */,
 				ACFDC1FF189F1D1F0009D0E6 /* Images.xcassets */,
+				ACFDC220189F51280009D0E6 /* CalculatorBrain.m */,
+				ACFDC21F189F51280009D0E6 /* CalculatorBrain.h */,
 				ACFDC1EE189F1D1F0009D0E6 /* Supporting Files */,
 			);
 			path = Caculator;
@@ -126,10 +131,10 @@
 		ACFDC1EE189F1D1F0009D0E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ACFDC1EF189F1D1F0009D0E6 /* Caculator-Info.plist */,
+				ACFDC1EF189F1D1F0009D0E6 /* RPNCalculator-Info.plist */,
 				ACFDC1F0189F1D1F0009D0E6 /* InfoPlist.strings */,
 				ACFDC1F3189F1D1F0009D0E6 /* main.m */,
-				ACFDC1F5189F1D1F0009D0E6 /* Caculator-Prefix.pch */,
+				ACFDC1F5189F1D1F0009D0E6 /* RPNCalculator-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +151,7 @@
 		ACFDC20D189F1D1F0009D0E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ACFDC20E189F1D1F0009D0E6 /* CaculatorTests-Info.plist */,
+				ACFDC20E189F1D1F0009D0E6 /* RPNCalculatorTests-Info.plist */,
 				ACFDC20F189F1D1F0009D0E6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACFDC1E3189F1D1F0009D0E6 /* Caculator */ = {
+		ACFDC1E3189F1D1F0009D0E6 /* RPNCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACFDC216189F1D1F0009D0E6 /* Build configuration list for PBXNativeTarget "Caculator" */;
+			buildConfigurationList = ACFDC216189F1D1F0009D0E6 /* Build configuration list for PBXNativeTarget "RPNCalculator" */;
 			buildPhases = (
 				ACFDC1E0189F1D1F0009D0E6 /* Sources */,
 				ACFDC1E1189F1D1F0009D0E6 /* Frameworks */,
@@ -167,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = Caculator;
+			name = RPNCalculator;
 			productName = Caculator;
-			productReference = ACFDC1E4189F1D1F0009D0E6 /* Caculator.app */;
+			productReference = ACFDC1E4189F1D1F0009D0E6 /* RPNCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ACFDC204189F1D1F0009D0E6 /* CaculatorTests */ = {
+		ACFDC204189F1D1F0009D0E6 /* RPNCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACFDC219189F1D1F0009D0E6 /* Build configuration list for PBXNativeTarget "CaculatorTests" */;
+			buildConfigurationList = ACFDC219189F1D1F0009D0E6 /* Build configuration list for PBXNativeTarget "RPNCalculatorTests" */;
 			buildPhases = (
 				ACFDC201189F1D1F0009D0E6 /* Sources */,
 				ACFDC202189F1D1F0009D0E6 /* Frameworks */,
@@ -185,9 +190,9 @@
 			dependencies = (
 				ACFDC20B189F1D1F0009D0E6 /* PBXTargetDependency */,
 			);
-			name = CaculatorTests;
+			name = RPNCalculatorTests;
 			productName = CaculatorTests;
-			productReference = ACFDC205189F1D1F0009D0E6 /* CaculatorTests.xctest */;
+			productReference = ACFDC205189F1D1F0009D0E6 /* RPNCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +202,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Calculator;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "MEI C";
 				TargetAttributes = {
 					ACFDC204189F1D1F0009D0E6 = {
@@ -205,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ACFDC1DF189F1D1F0009D0E6 /* Build configuration list for PBXProject "Caculator" */;
+			buildConfigurationList = ACFDC1DF189F1D1F0009D0E6 /* Build configuration list for PBXProject "RPNCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +223,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACFDC1E3189F1D1F0009D0E6 /* Caculator */,
-				ACFDC204189F1D1F0009D0E6 /* CaculatorTests */,
+				ACFDC1E3189F1D1F0009D0E6 /* RPNCalculator */,
+				ACFDC204189F1D1F0009D0E6 /* RPNCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +257,7 @@
 			files = (
 				ACFDC1F8189F1D1F0009D0E6 /* CalculatorAppDelegate.m in Sources */,
 				ACFDC1F4189F1D1F0009D0E6 /* main.m in Sources */,
+				ACFDC221189F51280009D0E6 /* CalculatorBrain.m in Sources */,
 				ACFDC1FE189F1D1F0009D0E6 /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +275,7 @@
 /* Begin PBXTargetDependency section */
 		ACFDC20B189F1D1F0009D0E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ACFDC1E3189F1D1F0009D0E6 /* Caculator */;
+			target = ACFDC1E3189F1D1F0009D0E6 /* RPNCalculator */;
 			targetProxy = ACFDC20A189F1D1F0009D0E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -306,7 +312,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +350,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -380,9 +384,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Caculator/Caculator-Prefix.pch";
-				INFOPLIST_FILE = "Caculator/Caculator-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Caculator/RPNCalculator-Prefix.pch";
+				INFOPLIST_FILE = "Caculator/RPNCalculator-Info.plist";
+				PRODUCT_NAME = RPNCalculator;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,9 +397,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Caculator/Caculator-Prefix.pch";
-				INFOPLIST_FILE = "Caculator/Caculator-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Caculator/RPNCalculator-Prefix.pch";
+				INFOPLIST_FILE = "Caculator/RPNCalculator-Info.plist";
+				PRODUCT_NAME = RPNCalculator;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -403,7 +407,6 @@
 		ACFDC21A189F1D1F0009D0E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caculator.app/Caculator";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -416,8 +419,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "CaculatorTests/CaculatorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CaculatorTests/RPNCalculatorTests-Info.plist";
+				PRODUCT_NAME = RPNCalculatorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -426,7 +429,6 @@
 		ACFDC21B189F1D1F0009D0E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caculator.app/Caculator";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -435,8 +437,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Caculator/Caculator-Prefix.pch";
-				INFOPLIST_FILE = "CaculatorTests/CaculatorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CaculatorTests/RPNCalculatorTests-Info.plist";
+				PRODUCT_NAME = RPNCalculatorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -445,7 +447,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACFDC1DF189F1D1F0009D0E6 /* Build configuration list for PBXProject "Caculator" */ = {
+		ACFDC1DF189F1D1F0009D0E6 /* Build configuration list for PBXProject "RPNCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACFDC214189F1D1F0009D0E6 /* Debug */,
@@ -454,21 +456,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACFDC216189F1D1F0009D0E6 /* Build configuration list for PBXNativeTarget "Caculator" */ = {
+		ACFDC216189F1D1F0009D0E6 /* Build configuration list for PBXNativeTarget "RPNCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACFDC217189F1D1F0009D0E6 /* Debug */,
 				ACFDC218189F1D1F0009D0E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		ACFDC219189F1D1F0009D0E6 /* Build configuration list for PBXNativeTarget "CaculatorTests" */ = {
+		ACFDC219189F1D1F0009D0E6 /* Build configuration list for PBXNativeTarget "RPNCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACFDC21A189F1D1F0009D0E6 /* Debug */,
 				ACFDC21B189F1D1F0009D0E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
