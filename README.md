@@ -1,6 +1,6 @@
 # RPNCalculator
 This is a simple calculator use Reverse Polish Notation.  
-Run on iOS 7 or older version.  
+Run on iOS 7 or later version.  
 ### To use:  
 1. Tap Enter after you input a number;  
 2. input operator;
